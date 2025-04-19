@@ -1,6 +1,6 @@
 import express from 'express'
 import cors from 'cors'
-import userRouter from './routers/UserController';
+import userRouter from './controller/UserController';
 import { AppDataSource } from "./data-source"
 import { User } from "./entity/User"
 
